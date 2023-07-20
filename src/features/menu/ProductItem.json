@@ -1,0 +1,94 @@
+[
+  {
+    "category": "Bundles",
+    "items": [
+      {
+        "main-text": "Salad Bundle",
+        "description": "A perfect healthy & delicious meal. Choose from one of our favourite salads, add a drink and snack for just",
+        "price": "14.99"
+      }
+    ]
+  },
+  {
+    "category": "Salads",
+    "items": [
+      {
+       
+        "main-text": "Chipotle salad",
+        "description": "Your chioce of chicken breast or grilled chicken thigh with avocado, cheddar, mixed beans, tomato salsa, jalapenos, tortilla chips & ranch dressing",
+        "price": "14.99"
+      },
+      {
+        
+        "main-text": "Create Your Own Salad",
+        "description": "A perfect healthy & delicious meal. Choose from one of our favourite salads, add a drink and snack for just",
+        "price": "14.99"
+      },
+      {
+        
+        "main-text": "Buffalo chicken",
+        "description": "Your choice of chicken or grilled chicken thigh, with feta, picked veg, sweetcorn, baby plum tomatoes, piri piri and ranch dressing",
+        "price": "14.99"
+      },
+      {
+        
+        "main-text": "Middle eastern salad",
+        "description": "your choice of protein with houmous, pickled veg, roasted peppers, cucumber & pomegranate relish, baby plum tomatos, fresh herbs and tahini dressing",
+        "price": "14.99"
+      },
+      {
+       
+        "main-text": "Salad Bundle",
+        "description": "A perfect healthy & delicious meal. Choose from one of our favourite salads, add a drink and snack for just",
+        "price": "14.99"
+      },
+      {
+       
+        "main-text": "Tuna Niçoise",
+        "description": "tuna with egg, olives, baby plum tomatoes, pickled red onion and french dressing",
+        "price": "14.99"
+      }
+    ]
+  },
+  {
+    "category": "Hot Power Bowls",
+    "items": [
+      {
+        
+        "main-text": "Create Your Own Powerbowl",
+        "description": "choose your base, choose your protein, choose your hot veggie, choose your cold veggie, choose your sauce, choose your topping, add seasoning",
+        "price": "14.99"
+      },
+      {
+       
+        "main-text": "Brazilian Black Bean Powerbowl",
+        "description": "Questions about allergens, ingredients or cooking methods?",
+        "price": "14.99"
+      },
+      {
+        
+        "main-text": "Shawarma Powerbowl",
+        "description": "A warming dish filled with middle eastern flavours your choice of hot protein served on our famous Low GI supergrains with hot spicy beans, cucumber & mint relish, tahini dressing and seeds",
+        "price": "14.99"
+      },
+      {
+        
+        "main-text": "Middle eastern salad",
+        "description": "your choice of protein with houmous, pickled veg, roasted peppers, cucumber & pomegranate relish, baby plum tomatos, fresh herbs and tahini dressing",
+        "price": "14.99"
+      },
+      {
+       
+        "main-text": "Mighty Mexican",
+        "description": "A perfect healthy & delicious meal. Choose from one of our favourite salads, add a drink and snack for just",
+        "price": "14.99"
+      },
+      {
+       
+        "main-text": "Tuna Niçoise",
+        "description": "tuna with egg, olives, baby plum tomatoes, pickled red onion and french dressing",
+        "price": "14.99"
+      }
+    ]
+  }
+]

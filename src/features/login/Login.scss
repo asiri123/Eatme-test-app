@@ -1,0 +1,37 @@
+.login-main-container {
+  & .divider {
+    background-color: black;
+    background: #ebebeb;
+    height: 1px;
+  }
+  & .login-text {
+    margin: 50px 570px;
+    & .main-text-style {
+      display: flex;
+      align-items: flex-start;
+      font-family: sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      padding-bottom: 20px;
+    }
+
+    & .wrap-row {
+      display: flex;
+      flex-direction: row;
+      & .divider-text {
+        background-color: #ebebeb;
+        margin: 20px 0px;
+        height: 1px;
+        width: 190px;
+      }
+      & .or-text {
+        margin: 8px 10px;
+      }
+    }
+
+    & .bottom-text{
+      text-align: left;
+      margin-top: 15px;
+    }
+  }
+}
