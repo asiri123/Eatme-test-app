@@ -1,10 +1,14 @@
 import Button from "@mui/material/Button"
 import CottageIcon from "@mui/icons-material/Cottage"
+import { useNavigate } from "react-router-dom";
 
+const SignupBtn : React.FC= () => {
 
-const SignupBtn = () => {
+  const navigate = useNavigate();
+
   return (
     <Button
+     onClick={()=>navigate("/menu")}
       style={{
         borderColor: "#e8ebeb",
         color: "#2e3333",

@@ -1,5 +1,8 @@
 .menu-main-container {
   & .header-container {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
   }
   & .divider {
     background: #ebebeb;
@@ -30,6 +33,7 @@
       flex: 6;
       flex-direction: column;
       align-items: flex-start;
+      margin-left: 20px;
       & .description-first {
         font-size: 40px;
         font-weight: 700;
@@ -45,6 +49,9 @@
         font-size: 16px;
         font-weight: 400;
         color: #2e3333;
+      }
+      & .info-button-container {
+        // background-color: blueviolet;
       }
     }
     & .deliver-container {
@@ -65,25 +72,29 @@
   }
   & .navbar-section {
     margin: 10px 70px;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
   }
   & .item-container {
     display: flex;
-    height: 200px;
-    margin: 0px 70px; 
+    margin: 30px 70px;
+
     & .item-section {
       display: flex;
-      flex: 8;
-      height: 200px;
-     
-      & .item-first-text{
-        margin: 30px 0px;
+      flex: 9;
+      flex-direction: column;
+      & .item-first-text {
+        display: flex;
         color: #585c5c;
       }
     }
     & .your-basket-section {
       display: flex;
-      flex: 4;
-      
+      flex: 3;
+      position: sticky;
+      top: 100px;
+      z-index: 3;
     }
   }
 }

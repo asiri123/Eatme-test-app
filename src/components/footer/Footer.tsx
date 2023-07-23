@@ -70,11 +70,11 @@ const Footer = () => {
 
         <div className="left-panel"></div>
       </div>
-      <div className="social-media-container">
+      {/* <div className="social-media-container">
         <FacebookRoundedIcon style={{ color: "white" }} />
         <StormRoundedIcon style={{ color: "white" }} />
         <DownloadingRoundedIcon style={{ color: "white" }} />
-      </div>
+      </div> */}
     </>
   )
 }

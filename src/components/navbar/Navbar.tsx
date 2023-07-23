@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <Box sx={{ width: '100%', typography: 'body1' }}>
+    <Box sx={{ width: '100%', typography: 'body1',background:"white" ,height:'70px', }}>
       <TabContext value={value}>
         <Box>
           <TabList onChange={handleChange} aria-label="lab API tabs example">

@@ -1,12 +1,9 @@
 import React from "react"
+import { Apple, Facebook, Google, Email } from "@mui/icons-material"
 import Header from "../../components/header/Header"
-import Facebook from "../../components/buttons/Facebook"
-import Google from "../../components/buttons/Google"
-import Apple from "../../components/buttons/Apple"
-import EmailContinue from "../../components/buttons/Email-continue"
 import Footer from "../../components/footer/Footer"
 import "./Login.scss"
-import Divider from "@mui/material/Divider"
+import {Button} from "../../components"
 
 const Login = () => {
   return (
@@ -14,24 +11,28 @@ const Login = () => {
       <Header />
       <div className="divider" />
       <div className="login-text">
-        <div className="main-text-style">
-          <text>Sign up or log in</text>
-        </div>
-        <div style={{}}>
-          <Facebook />
-          <Google />
-          <Apple />
+        <div className="main-text-style">Sign up or log in</div>
+        <div>
+          <Button icon={Facebook} className={"facebook-style"}>
+            Continue with Facebook
+          </Button>
+          <Button icon={Google} className={"google-style"}>
+            Continue with Google
+          </Button>
+          <Button icon={Apple} className={"apple-style"}>
+            Continue with Apple
+          </Button>
         </div>
         <div className="wrap-row">
           <div className="divider-text" />
           <div className="or-text">or</div>
           <div className="divider-text" />
         </div>
-
         <div>
-          <EmailContinue />
+          <Button icon={Email} className={"email-style"}>
+            Continue with Email
+          </Button>
         </div>
-
         <div className="bottom-text">
           <text style={{ textAlign: "left", fontSize: 14, color: "#585c5c" }}>
             By continuing you agree to our{" "}
