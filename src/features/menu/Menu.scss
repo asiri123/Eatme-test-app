@@ -1,0 +1,100 @@
+.menu-main-container {
+  & .header-container {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  & .divider {
+    background: #ebebeb;
+    height: 1px;
+  }
+  & .divider-two {
+    background: #ebebeb;
+    height: 1px;
+    margin-top: 20px;
+  }
+
+  & .back-btn-section {
+    display: flex;
+    min-height: 8vh;
+    margin: 0px 70px;
+    align-items: center;
+  }
+  & .product-des-section {
+    display: flex;
+    margin: 0px 70px;
+    justify-content: flex-start;
+    & .image-container {
+      display: flex;
+      flex: 4;
+    }
+    & .description-container {
+      display: flex;
+      flex: 6;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 20px;
+      & .description-first {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+      & .description-second {
+        font-size: 16px;
+        font-weight: 400;
+        color: #2e3333;
+        margin-bottom: 5px;
+      }
+      & .description-second-distance {
+        font-size: 16px;
+        font-weight: 400;
+        color: #2e3333;
+      }
+      & .info-button-container {
+        // background-color: blueviolet;
+      }
+    }
+    & .deliver-container {
+      display: flex;
+      flex: 2;
+      flex-direction: column;
+      margin-top: 10px;
+      & .first-row-details {
+        display: flex;
+        //align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        & .change-text {
+          color: #00ccbc;
+        }
+      }
+    }
+  }
+  & .navbar-section {
+    margin: 10px 70px;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+  }
+  & .item-container {
+    display: flex;
+    margin: 30px 70px;
+
+    & .item-section {
+      display: flex;
+      flex: 9;
+      flex-direction: column;
+      & .item-first-text {
+        display: flex;
+        color: #585c5c;
+      }
+    }
+    & .your-basket-section {
+      display: flex;
+      flex: 3;
+      position: sticky;
+      top: 100px;
+      z-index: 3;
+    }
+  }
+}

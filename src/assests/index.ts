@@ -1,0 +1,1 @@
+export {default as ImageFood1} from "./images/images.jpeg"

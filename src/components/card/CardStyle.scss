@@ -1,0 +1,41 @@
+.main-card-container {
+  display: flex;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 2px;
+  & .card-description {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    align-items: flex-start;
+
+    & .main-header-text {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+
+    }
+
+    & .header-description {
+        display:flex;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-bottom: 5px;
+       justify-content: flex-start;
+
+    }
+    & .price-description {
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+  }
+  & .card-image {
+    display: flex;
+    flex: 4;
+   justify-content: flex-end;
+
+  }
+}
