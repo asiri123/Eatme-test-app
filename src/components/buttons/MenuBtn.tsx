@@ -11,6 +11,7 @@ const MenuBtn = () => {
         height: 40,
         width: 110,
         fontFamily: "sans-serif",
+        textTransform: "none"
       }}
       variant="outlined"
       color="primary"

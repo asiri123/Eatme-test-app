@@ -4,6 +4,7 @@ import {
   InfoOutlined,
   StarOutlineOutlined,
 } from "@mui/icons-material"
+import { Box, Grid } from "@mui/material"
 import {
   Navbar,
   Footer,
@@ -12,12 +13,12 @@ import {
   BucketItem,
   InfoButton,
   StartGroup,
-  HeaderLogin,
+  MenuHeader,
 } from "../../components"
 import { ImageFood1 } from "../../assests/"
-import "./Menu.scss"
 import { useAppDispatch, useAppSelector } from "../../app/hooks"
 import { fetchMenuItemList, selectMenuItemList } from "../menu/menuSlice"
+import "./Menu.scss"
 
 const Menu = () => {
   const foodItemList = useAppSelector(selectMenuItemList)
@@ -31,7 +32,7 @@ const Menu = () => {
     <>
       <div className="menu-main-container">
         <div className="header-container">
-          <HeaderLogin />
+          <MenuHeader />
         </div>
         <div className="divider" />
         <div className="back-btn-section">
@@ -84,9 +85,23 @@ const Menu = () => {
             <div>
               {foodItemList.map((data) => (
                 <div>
-                  <h4>{data.category}</h4>
+                  <div className="category-text-container">{data.category}</div>
                   {data.items.map((item) => (
-                    <CardItem description={item.mainText} price={0} />
+                    <Box sx={{ width: "100%" }}>
+                      <Grid
+                        container
+                        rowSpacing={1}
+                        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+                      >
+                        <Grid item xs={6} md={6}>
+                          <CardItem
+                            foodItem={item.mainText}
+                            description={item.description}
+                            price={item.price}
+                          />
+                        </Grid>
+                      </Grid>
+                    </Box>
                   ))}
                 </div>
               ))}

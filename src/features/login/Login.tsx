@@ -1,40 +1,37 @@
 import React from "react"
 import { Apple, Facebook, Google, Email } from "@mui/icons-material"
-import Header from "../../components/header/Header"
-import Footer from "../../components/footer/Footer"
+import { HeaderLogin, Footer } from "../../components/index"
 import "./Login.scss"
-import {Button} from "../../components"
+import { Button } from "../../components"
 
 const Login = () => {
   return (
     <div className="login-main-container">
-      <Header />
+      <div className="Header-container">
+        <HeaderLogin />
+      </div>
       <div className="divider" />
-      <div className="login-text">
-        <div className="main-text-style">Sign up or log in</div>
-        <div>
-          <Button icon={Facebook} className={"facebook-style"}>
-            Continue with Facebook
-          </Button>
-          <Button icon={Google} className={"google-style"}>
-            Continue with Google
-          </Button>
-          <Button icon={Apple} className={"apple-style"}>
-            Continue with Apple
-          </Button>
-        </div>
+      <div className="login-option-container">
+        <div className="header-signup-login">sign up or log in</div>
+        <Button icon={Facebook} className={"facebook-style"}>
+          Continue with Facebook
+        </Button>
+        <Button icon={Google} className={"google-style"}>
+          Continue with Google
+        </Button>
+        <Button icon={Apple} className={"apple-style"}>
+          Continue with Apple
+        </Button>
         <div className="wrap-row">
           <div className="divider-text" />
           <div className="or-text">or</div>
           <div className="divider-text" />
         </div>
-        <div>
-          <Button icon={Email} className={"email-style"}>
-            Continue with Email
-          </Button>
-        </div>
+        <Button icon={Email} className={"email-style"}>
+          Continue with Email
+        </Button>
         <div className="bottom-text">
-          <text style={{ textAlign: "left", fontSize: 14, color: "#585c5c" }}>
+          <div style={{ textAlign: "left", fontSize: 14, color: "#585c5c" }}>
             By continuing you agree to our{" "}
             <a href="" style={{ color: "#00ccbc" }}>
               T&Cs
@@ -48,10 +45,12 @@ const Login = () => {
             <a href="" style={{ color: "#00ccbc" }}>
               <a> </a>For more information see here.
             </a>
-          </text>
+          </div>
         </div>
       </div>
-      <Footer />
+      <div className="footer-maincontainer">
+        <Footer />
+      </div>
     </div>
   )
 }

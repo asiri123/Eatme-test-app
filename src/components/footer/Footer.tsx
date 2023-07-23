@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="content-container">
           <div className="discover-container">
             <div className="header-text">
-              <text>Discover Deliveroo</text>
+              <div>Discover Deliveroo</div>
             </div>
             {productList.map((items) => (
               <div className="body-text">{items}</div>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <div className="discover-container">
             <div className="header-text">
-              <text>Legal</text>
+              <div>Legal</div>
             </div>
             {legaiList.map((items) => (
               <div className="body-text">{items}</div>
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
           <div className="discover-container">
             <div className="header-text">
-              <text>Help</text>
+              <div>Help</div>
             </div>
             {helpList.map((items) => (
               <div className="body-text">{items}</div>
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
           <div className="discover-container">
             <div className="header-text">
-              <text>Take Deliveroo with you</text>
+              <div>Take Deliveroo with you</div>
             </div>
           </div>
         </div>
