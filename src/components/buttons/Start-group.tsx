@@ -9,7 +9,7 @@ const Startgroup = () => {
         borderColor: "#e8ebeb",
         color: "#2e3333",
         height: 40,
-       
+        textTransform: "none"
       }}
       variant="outlined"
       color="primary"
