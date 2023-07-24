@@ -2,35 +2,35 @@
 deliveroo clone project
 
 ## project Description
-This project built in order to participate for the EatMe global company interview process.
-This is a web clone project of deliveroo web site. (login and menu screens)
-Mainly focused, develop the project by follownig the provided technical requirements in the assesment file.
-    - create reusable components
-    - use Typescript
-    - use Redux toolkit
-    - a clean code (code formattings)
-    - use MUI 
+This project built in order to participate for the EatMe global company interview process.<br/>
+This is a web clone project of deliveroo web site. (login and menu screens)<br/>
+Mainly focused, develop the project by follownig the provided technical requirements in the assesment file.<br/>
+    - create reusable components<br/>
+    - use Typescript<br/>
+    - use Redux toolkit<br/>
+    - a clean code (code formattings)<br/>
+    - use MUI <br/>
 
 ## Technical analysis
-This project mainly built on React js.
-I have used other tech platforms as mentioned below.
-    - Typescript       - used throughout the project for type based implementation
-    - Sass             - used as css library
-    - MUI              - used for the icons and few of the ui components
-    - Redux toolkit    - state management platform
-    - React-router-dom - Manage the routings of tyhe react project
+This project mainly built on React js.<br/>
+I have used other tech platforms as mentioned below.<br/>
+    - Typescript       - used throughout the project for type based implementation<br/>
+    - Sass             - used as css library<br/>
+    - MUI              - used for the icons and few of the ui components<br/>
+    - Redux toolkit    - state management platform<br/>
+    - React-router-dom - Manage the routings of tyhe react project<br/>
     
 ## Project running instruction
-first get a clone from the provided git repository  - (git clone "project http url")
-please find the code base on `master branch`
-run it on a IDE (recommend VS code since project developed on this IDE)
-give a `npm install` 
-run the application using `npm start`
+first get a clone from the provided git repository  - (git clone "project http url")<br/>
+please find the code base on `master branch`<br/>
+run it on a IDE (recommend VS code since project developed on this IDE)<br/>
+give a `npm install` <br/>
+run the application using `npm start`<br/>
 
 ## project structure
-After successfully running the project you will be able to initially load the login screen.
-Then by clicking on the `signup or login` button in the header you can get navigat into "Menu" screen.
+After successfully running the project you will be able to initially load the login screen.<br/>
+Then by clicking on the `signup or login` button in the header you can get navigat into "Menu" screen.<br/>
 
 ## Goal
-By working on this project my main goal is to get selected for this opportunity and improve more knowledge day by day.
+By working on this project my main goal is to get selected for this opportunity and improve more knowledge day by day.<br/>
 
