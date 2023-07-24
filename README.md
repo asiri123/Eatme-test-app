@@ -1,27 +1,35 @@
-# vite-template-redux
+# Project Title
+deliveroo clone project
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+## project Description
+This project built in order to participate for the EatMe global company interview process.
+This is a web clone project of deliveroo web site. (login and menu screens)
+Mainly focused, develop the project by follownig the provided technical requirements in the assesment file.
+    - create reusable components
+    - use Typescript
+    - use Redux toolkit
+    - a clean code (code formattings)
+    - use MUI 
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
-```
+## Technical analysis
+This project mainly built on React js.
+I have used other tech platforms as mentioned below.
+    - Typescript       - used throughout the project for type based implementation
+    - Sass             - used as css library
+    - MUI              - used for the icons and few of the ui components
+    - Redux toolkit    - state management platform
+    - React-router-dom - Manage the routings of tyhe react project
+    
+## Project running instruction
+first get a clone from the provided git repository  - (git clone "project http url")
+run it on a IDE (recommend VS code since project developed on this IDE)
+give a `npm install` 
+run the application using `npm start`
 
-## Goals
+## project structure
+After successfully running the project you will be able to initially load the login screen.
+Then by clicking on the `signup or login` button in the header you can get navigat into "Menu" screen.
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+## Goal
+By working on this project my main goal is to get selected for this opportunity and improve more knowledge day by day.
 
-## Scripts
-
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
-
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
