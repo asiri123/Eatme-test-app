@@ -22,6 +22,7 @@ I have used other tech platforms as mentioned below.
     
 ## Project running instruction
 first get a clone from the provided git repository  - (git clone "project http url")
+please find the code base on `master branch`
 run it on a IDE (recommend VS code since project developed on this IDE)
 give a `npm install` 
 run the application using `npm start`
